@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día de Muertos</title> <link rel="shortcut icon" href="imagenes/Día-removebg-preview (1).png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/Día.png" alt="">
+        </div>
+        <nav>
+            <a href="index.html">Historia</a>
+            <a href="catrina.html">Catrina</a>
+            <a href="flores.html">Flores</a>
+            <a href="leyendas.html">Leyendas</a>
+        </nav>
+    </header>
+    <h1>Encuesta de Día de Muertos</h1>
+    <form action="procesar_encuesta.php" method="post">
+        <p>1. ¿Celebras el Día de Muertos? <br><br>
+            <input type="radio" name="pregunta1" value="Sí"> Sí
+            <input type="radio" name="pregunta1" value="No"> No
+        </p>
+        <p>2. ¿Cuál es tu parte favorita de las festividades del Día de Muertos? <br><br>
+            <textarea name="pregunta2" rows="4" cols="50"></textarea>
+        </p>
+        <p>3. ¿Tienes alguna tradición o costumbre especial que sigas durante el Día de Muertos? <br><br>
+            <textarea name="pregunta3" rows="4" cols="50"></textarea>
+        </p>
+        <p>4. ¿Cuál es tu platillo típico favorito para compartir en esta festividad? <br><br>
+            <input type="text" name="pregunta4">
+        </p>
+        <p>5. ¿Qué significado tiene el Día de Muertos para ti? <br><br>
+            <textarea name="pregunta5" rows="4" cols="50"></textarea>
+        </p>
+        <p>6. ¿Participarías en un evento o actividad especial relacionada con el Día de Muertos? <br><br>
+            <input type="radio" name="pregunta6" value="Sí"> Sí
+            <input type="radio" name="pregunta6" value="No"> No
+        </p>
+        <p>7. ¿Hay algo más que te gustaría compartir o sugerir para nuestras celebraciones del Día de Muertos? <br><br>
+            <textarea name="pregunta7" rows="4" cols="50"></textarea>
+        </p>
+        <input class="enviar"  type="submit" value="Enviar respuestas">
+    </form>
+    <br>
+    <img src="imagenes/2a79691cde2357519ec83d701e342b19.jpg" alt="">
+</body>
+</html>

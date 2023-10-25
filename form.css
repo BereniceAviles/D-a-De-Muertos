@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+form{
+    text-align: center;
+}
+p{
+    color:gold;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enviar{
+    background-color: chocolate;
+    font-family:Arial;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+}
+input{
+    border-radius: 5px;
+
+}
+textarea{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px orange;
+}
+img{
+    width: 1000px;
+    height: 500px;
+}
+header{
+    display: flex;
+    min-height: 150px;
+    background-color:black;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 140px;
+    height: 120px;
+    margin-right: 10px;
+}
+a{
+    color:aliceblue;
+    font-family: arial;       
+    text-decoration: none;
+    font-size: 27px;  
+}
+nav a{
+    font-weight: 600;
+    padding-right: 35px;
+}
+nav a:hover{
+    color:orange;
+}
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
